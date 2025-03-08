@@ -61,11 +61,11 @@ This time the script did not find the SHA256 checksum of the file.
 
 We have a bitmap image file with some noise at the top of the image. Maybe there is some hidden data in this image. We can try tools like ```steghide``` or ```outguess``` on Linux to extract this data but both dont support ```.bmp```. This led me think of possible file conversions. I looked it up online as got to know that ```.png``` and ```.bmp``` file are lossless in nature and hence donot loose the encoded message within them.
 
-Naturally my next idea was to convert the ```.bmp``` file to a ```.png``` file to see we could extract data from there but turns out even PNG is not supported by many steganograpgy tools. 
+Naturally my next idea was to convert the ```.bmp``` file to a ```.png``` using an online image converter to see we could extract data from the ```.png``` but as it turns out even PNG is not supported by many steganography tools.
 
 ![output.png](https://github.com/rugbedbugg/GDSC_Steganog-reverseEngg/blob/master/Hidden_Pixels/output.png)
 
-Although I read that ```.jpeg``` files has lossy encoding I decided to give it a shot and converted the ```.png```  file into a ```.jpeg``` file. Surprisingly, the image cleared up to show a still obfuscated but visible second part of the image.
+Although I read that ```.jpeg``` files have lossy encoding I decided to give it a shot and converted the ```.png```  file into a ```.jpeg``` file. Surprisingly, the image cleared up to show a still obfuscated but visible second part of the image.
 
 It seems like the noise was added on top of the image.
 
