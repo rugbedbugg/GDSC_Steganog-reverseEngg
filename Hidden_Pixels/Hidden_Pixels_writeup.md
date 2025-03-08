@@ -58,7 +58,6 @@ for property in file_properties:
 This time the script did not find the SHA256 checksum of the file.
 
 ## Another approach (Steganography)
-* * *
 
 We have a bitmap image file with some noise at the top of the image. Maybe there is some hidden data in this image. We can try tools like ```steghide``` or ```outguess``` on Linux to extract this data but both dont support ```.bmp```. This led me think of possible file conversions. I looked it up online as got to know that ```.png``` and ```.bmp``` file are lossless in nature and hence donot loose the encoded message within them.
 
