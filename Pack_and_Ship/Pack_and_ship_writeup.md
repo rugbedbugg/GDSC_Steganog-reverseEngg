@@ -76,4 +76,4 @@ We can make this code better by renaming variables into meaningful ones. After a
 
 Now the code is much clearer. We can see that there is a reference to the ```FLAG``` variable. One mention of this is where there is the instruction 
 
-```LEA INPUT_MATCH->FLAG [RBP -0x]```
+```LEA INPUT_MATCH->FLAG [RBP -0x70]```
