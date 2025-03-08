@@ -74,6 +74,6 @@ We can make this code better by renaming variables into meaningful ones. After a
 
 ![reverse_engineered_code.jpeg](https://github.com/rugbedbugg/GDSC_Steganog-reverseEngg/blob/master/Pack_and_Ship/documented_media/reverse_engineered_code.jpeg)
 
-Now the code is much clearer. We can see that there is a reference to the ```FLAG``` variable. One mention of this is where there is the instruction 
+Now the code is much clearer. We can see that there is a reference to the ```FLAG``` variable. One mention of this is where there is the instruction
 
-```LEA INPUT_MATCH->FLAG [RBP -0x70]```
+```LEA INPUT_MATCH=>FLAG [RBP + -0x70]```
