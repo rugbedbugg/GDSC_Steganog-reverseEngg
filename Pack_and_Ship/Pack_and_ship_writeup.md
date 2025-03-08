@@ -58,7 +58,7 @@ Similarly we try ASCII as well
 Both of them look almost readable but not clear enough. Good for me I learnt assembly language. Lets try to disassemble the program. Linux again comes with a built-in functionality to disassemble a program. The command is
 ``` objdump -d release_UPXdecompressed | less ```
 
-The ```less``` at the end of the command hlpe
+The ```less``` at the end of the command gives us the text output on the terminal itself.
 
 [the_answer_is_assembly.mp4](https://github.com/rugbedbugg/GDSC_Steganog-reverseEngg/blob/master/Pack_and_Ship/documented_media/the_answer_is_assembly.mp4)
 
