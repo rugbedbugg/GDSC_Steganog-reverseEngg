@@ -63,7 +63,7 @@ We have a bitmap image file with some noise at the top of the image. Maybe there
 
 Naturally my next idea was to convert the ```.bmp``` file to a ```.png``` file to see we could extract data from there but turns out even PNG is not supported by many steganograpgy tools. 
 
-![output.png]()
+![output.png](https://github.com/rugbedbugg/GDSC_Steganog-reverseEngg/blob/master/Hidden_Pixels/output.png)
 
 Although I read that ```.jpeg``` files has lossy encoding I decided to give it a shot and converted the ```.png```  file into a ```.jpeg``` file. Surprisingly, the image cleared up to show a still obfuscated but visible second part of the image.
 
